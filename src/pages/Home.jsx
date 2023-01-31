@@ -1,6 +1,9 @@
 function Home() {
   return (
-      <h1>Home</h1>
+    <>
+      <h2>Austin Friesorger</h2>
+      <h2>Software Engineer</h2>
+    </>
   )
 }
 
