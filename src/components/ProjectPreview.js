@@ -1,6 +1,6 @@
 import projects from "../pages/data/projects";
 
-function ProjectReview() {
+function ProjectPreview() {
   return (
     <>
       <section>
@@ -15,4 +15,4 @@ function ProjectReview() {
   )
 }
 
-export default ProjectReview
+export default ProjectPreview

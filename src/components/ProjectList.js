@@ -1,5 +1,5 @@
 import projects from "../pages/data/projects";
-import ProjectReview from "./ProjectReview";
+import ProjectPreview from "./ProjectPreview";
 
 function ProjectList() {
   return (
@@ -7,7 +7,7 @@ function ProjectList() {
       <div>
         <h2>Projects</h2>
         <ul>
-          <ProjectReview projects={projects} />
+          <ProjectPreview projects={projects} />
         </ul>
       </div>
     </>
