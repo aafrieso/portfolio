@@ -10,7 +10,7 @@ function ProjectDetails() {
     <>
       <h1>{project.title}</h1>
       <p>{project.description}</p>
-      <img src={project.image} alt={project.title} />
+      <img src={project.image} alt="project"/>
       <button>
         <a href={project.repoLink}>View the project code here</a>
       </button>
