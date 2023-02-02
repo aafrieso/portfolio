@@ -11,8 +11,7 @@ img {
   justify-content: center;
 }
 
-
-.home-page {
+button {
   display: flex;
   margin: 0 auto;
   justify-content: center;
