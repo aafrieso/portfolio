@@ -1,7 +1,19 @@
 img {
   height: 300px;
   display: flex;
-  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contact-info {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+.home-page {
+  display: flex;
   margin: 0 auto;
   justify-content: center;
 }

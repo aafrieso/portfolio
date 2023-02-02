@@ -3,8 +3,9 @@ import '../App.css';
 function Home() {
   return (
     <>
-      <h2>Austin Friesorger</h2>
-      <h2>Aspiring Software Engineer</h2>
+      <div class="home-page">
+        <h2>Hey, welcome to my page! 😃  My name is Austin Friesorger, and I am an aspiring full stack software engineer </h2>
+      </div>
       <img src="/images/IMG_8883.jpg" alt=""/>
     </>
   )
