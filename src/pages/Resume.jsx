@@ -4,7 +4,7 @@ function Resume() {
     <h1>Resume</h1>
 
     <button>
-      <a href="./resume.pdf" download> Download my resume here!</a>
+      <a href="./AUSTIN_FRIESORGER_RESUME.pdf" download> Download my resume here!</a>
     </button>
     </>
   )

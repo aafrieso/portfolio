@@ -1,15 +1,16 @@
-import projects from "../pages/data/projects";
 import ProjectPreview from "./ProjectPreview";
 
-function ProjectList() {
+function ProjectList(props) {
   return (
     <>
-      <div>
-        <h2>Projects</h2>
-        <ul>
-          <ProjectPreview projects={projects} />
-        </ul>
-      </div>
+      <h1>Projects</h1>
+      <ul>
+        {props.projects.map(project =>
+          <li key={project.title}>
+            <ProjectPreview project={project} />
+          </li>
+        )}
+      </ul>
     </>
   )
 }
